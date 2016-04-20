@@ -1,0 +1,43 @@
+url: https://jaselchauhan.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Jasel Chauhan
+email: jasel.chauhan@gmail.com
+description: "Financial Analyst turned Full Stack Web Developer. Curiousity didn't kill this cat."
+
+
+# Team names, titles and social links
+people:
+- name: Jasel Chauhan
+  pic: 1
+  position: Web Developer - Full Stack
+  social:
+    - title: twitter
+      url: #
+    - title: github
+      url: #
+    - title: stack-overflow
+      url: #
+
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/functiondeclare
+  - title: github
+    url: https://github.com/jaselchauhan
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: linkedIn
+    url: https://uk.linkedin.com/in/jaselchauhan
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Shoreditch, London
+
+# Build settings
+markdown: kramdown
+permalink: pretty

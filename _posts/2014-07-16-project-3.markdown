@@ -1,0 +1,14 @@
+---
+title: sparewall
+subtitle: connects peoples with sparewalls with artists who want to paint them!
+layout: default
+modal-id: 3
+date: 2016-02-20
+img: sparewall.png
+thumbnail: sparewall.png
+alt: image-alt
+project-date: March 2016
+category: Web Development
+description: sparewall is a website which connects people who own spare walls with those who want to paint them. It was made for my second project at GA WDI and was built in 5 days.
+
+---

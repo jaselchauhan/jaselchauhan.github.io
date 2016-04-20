@@ -1,0 +1,15 @@
+---
+title: litesweeper
+subtitle: JavaScript based logic puzzle game!
+layout: default
+modal-id: 2
+date: 2016-02-01
+img: litesweeper.png
+thumbnail: litesweeper.png
+alt: image-alt
+project-date: February 2016
+client: Me
+category: Web Development
+description: JavaScript based logic puzzle game!
+
+---

@@ -1,0 +1,15 @@
+---
+title: Tic Tac Toe
+subtitle: Classic game, doesn't really need an introduction!
+layout: default
+modal-id: 1
+date: Feb 2016
+img: tictactoe.png
+thumbnail: tictactoe.png
+alt: image-alt
+project-date: Feb 2016
+client: me
+category: Web Development
+description: Developed at beginning of GA WDI, using JavaScript, CSS and HTML
+
+---

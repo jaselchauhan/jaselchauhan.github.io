@@ -1,0 +1,18 @@
+---
+title: zenspace
+subtitle: A group coded project which allowed users to find 'zen' spots in London based on their location.
+layout: default
+modal-id: 5
+date: 2016-03-20
+img: zenspace.png
+thumbnail: zenspace.png
+alt: zenspace img
+project-date: March 2016
+tech-used: nodeJS, Express, MongoDB, BCrypt, JWT's.
+github: https://github.com/jaselchauhan/PROJECT3
+heroku: add heroku url here
+client: Group project
+category: Web Development
+description: Group project which allowed users to find 'zen' spots in London based on their location. Uses Google Places API, developed using NodeJS, Express, MongoDB, BCrypt, JWTs.
+
+---

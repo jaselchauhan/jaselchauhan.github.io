@@ -1,0 +1,15 @@
+---
+title: project4
+subtitle: will find users a range of festivals depending on their dates and location.
+layout: default
+modal-id: 4
+date: 2016-04-05
+img: project4.png
+thumbnail: project4.png
+alt: image-alt
+project-date: April 2016
+client: Me
+category: Web Development
+description: Developed a single page app which finds a festival dependant on user input. API mashup using Google Maps, Eventbrite and Weather APIs. Full MEAN stack app with oAuth Facebook and Eventbrite login.
+
+---

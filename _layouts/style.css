@@ -1,0 +1,86 @@
+{% include css/bootstrap.min.css %}
+{% include css/agency.css %}
+{{ content }}
+
+
+header .intro-text .intro-lead-in{
+  color:black;
+}
+
+header .intro-text .intro-heading{
+  color: black;
+}
+
+#navbarLogo{
+  height:60px;
+}
+
+a.navbar-brand.page-scroll {
+  padding-top: 0px;
+}
+
+div.col-lg-12.text-center{
+  margin-top: 25px;
+}
+
+ul li a.page-scroll{
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#introSection{
+  /*background-image: url("img/portfolio/background3.jpg");
+  background-size: cover;*/
+
+}
+
+div.intro-lead-in{
+  font-size: 26px !important;
+  color: #777 !important;
+}
+
+header .intro-text .intro-lead-in {
+}
+
+a.page-scroll.btn.btn-xl{
+  margin-top: 30px;
+}
+
+section{
+  padding-top: 80px;
+  padding-bottom: 105px;
+}
+
+#philosophy{
+  margin-top: 150px;
+}
+
+h2.section-heading{
+  margin-top:
+}
+
+.navbar-default .navbar-nav>.active>a{
+  background-color: #222;
+  color:  #{{ site.data.template.color.primary }};
+}
+
+.techStack{
+  height: 50px;
+}
+
+.philosophy{
+  background-image: url("img/portfolio/background3.jpg");
+  background-size: cover;
+}
+
+footer {
+  background-color: #{{ site.data.template.color.secondary-dark }};
+}
+
+#aboutme{
+
+    background-image: url("img/portfolio/background3.jpg");
+    background-size: cover;
+
+}
