@@ -227,8 +227,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    /*color: #fff;
+    background-color: #{{ site.data.template.color.secondary }};*/
 }
 
 @media(min-width:768px) {

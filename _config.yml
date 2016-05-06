@@ -4,7 +4,7 @@ url: https://jaselchauhan.github.io
 # Site settings
 title: Jasel Chauhan
 email: jasel.chauhan@gmail.com
-description: "Financial Analyst turned Full Stack Web Developer. Curiousity didn't kill this cat."
+description: "Financial Analyst turned Full Stack Web Developer. Curiosity didn't kill this cat."
 
 
 # Team names, titles and social links
@@ -28,15 +28,15 @@ social:
     url: http://twitter.com/functiondeclare
   - title: github
     url: https://github.com/jaselchauhan
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: linkedIn
+  - title: linkedin
     url: https://uk.linkedin.com/in/jaselchauhan
+  - title: envelope
+    url: mailto:jasel.chauhan@gmail.com
 
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Shoreditch, London
+  - line: London
 
 # Build settings
 markdown: kramdown

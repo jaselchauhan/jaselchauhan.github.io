@@ -70,7 +70,7 @@ h2.section-heading{
 }
 
 .philosophy{
-  background-image: url("img/portfolio/background3.jpg");
+  background-image: url("img/portfolio/backgroundgif.gif");
   background-size: cover;
 }
 
@@ -80,7 +80,15 @@ footer {
 
 #aboutme{
 
-    background-image: url("img/portfolio/background3.jpg");
+    background-image: url("img/portfolio/background4.jpg");
     background-size: cover;
+}
 
+#introSection{
+  /*background-image: url("img/portfolio/background2.gif");
+  background-size: cover;*/
+}
+
+.text-muted-philosophy:hover{
+  color: #{{ site.data.template.color.primary }}
 }
