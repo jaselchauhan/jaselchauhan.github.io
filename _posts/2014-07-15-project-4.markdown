@@ -1,6 +1,6 @@
 ---
 title: project4
-subtitle: will find users a range of festivals depending on their dates and location.
+subtitle: AngularJS single page app which harnesses multiple APIs in conjuction with each other to suggest festivals for user.
 layout: default
 modal-id: 4
 date: 2016-04-05
@@ -11,7 +11,6 @@ project-date: April 2016
 client: Me
 category: Web Development
 description: Developed a single page Angular app which finds a festival dependent on user input. API mashup using Google Maps, Eventbrite and Weather APIs. Full MEAN stack app with oAuth Facebook and Eventbrite login.
-github: https://github.com/jaselchauhan/WDI_Project4
-heroku: https://blooming-depths-77927.herokuapp.com/
+moreinfo: https://github.com/jaselchauhan/WDI_Project4
 
---
+---
