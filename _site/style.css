@@ -909,6 +909,10 @@ ul li a.page-scroll{
 
 }
 
+#philosophyTagline{
+  font-size: 20px;
+}
+
 div.intro-lead-in{
   font-size: 26px !important;
   color: #777 !important;
@@ -926,10 +930,6 @@ section{
   padding-bottom: 105px;
 }
 
-#philosophy{
-  margin-top: 150px;
-}
-
 h2.section-heading{
   margin-top:
 }
@@ -944,8 +944,9 @@ h2.section-heading{
 }
 
 .philosophy{
-  background-image: url("img/portfolio/backgroundgif.gif");
+  background-image: url("img/portfolio/background7.jpg");
   background-size: cover;
+  margin-top: 200px;
 }
 
 footer {
@@ -963,6 +964,10 @@ footer {
   background-size: cover;*/
 }
 
-.text-muted-philosophy:hover{
-  color: #489E74
+.text-muted-philosophy{
+  color: #333
 }
+
+/*.text-muted-philosophy:hover{
+  color: #489E74
+}*/
