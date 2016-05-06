@@ -29,12 +29,6 @@ ul li a.page-scroll{
   padding-bottom: 10px;
 }
 
-#introSection{
-  /*background-image: url("img/portfolio/background3.jpg");
-  background-size: cover;*/
-
-}
-
 #philosophyTagline{
   font-size: 20px;
 }
@@ -80,20 +74,10 @@ footer {
 }
 
 #aboutme{
-
     background-image: url("img/portfolio/background4.jpg");
     background-size: cover;
-}
-
-#introSection{
-  /*background-image: url("img/portfolio/background2.gif");
-  background-size: cover;*/
 }
 
 .text-muted-philosophy{
   color: #{{ site.data.template.color.secondary-dark }}
 }
-
-/*.text-muted-philosophy:hover{
-  color: #{{ site.data.template.color.primary }}
-}*/

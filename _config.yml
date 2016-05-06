@@ -24,12 +24,12 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/_jaselchauhan
   - title: github
     url: https://github.com/jaselchauhan
   - title: linkedin
     url: https://uk.linkedin.com/in/jaselchauhan
+  - title: twitter
+    url: http://twitter.com/_jaselchauhan
   - title: envelope
     url: mailto:jasel.chauhan@gmail.com
 
