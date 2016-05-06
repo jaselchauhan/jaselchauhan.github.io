@@ -13,7 +13,8 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     color: #333;
 }
 

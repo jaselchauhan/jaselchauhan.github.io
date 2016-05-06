@@ -11,5 +11,7 @@ project-date: Feb 2016
 client: me
 category: Web Development
 description: Developed at beginning of GA WDI, using JavaScript, CSS and HTML
+github: https://github.com/jaselchauhan/tictactoe
+heroku: https://quiet-mesa-77421.herokuapp.com/
 
 ---

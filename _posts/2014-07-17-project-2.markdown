@@ -11,5 +11,10 @@ project-date: February 2016
 client: Me
 category: Web Development
 description: JavaScript based logic puzzle game!
+github: https://github.com/jaselchauhan/WDI_Project1
+heroku: https://quiet-mesa-77421.herokuapp.com/
+
+
+
 
 ---

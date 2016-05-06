@@ -9,6 +9,8 @@ thumbnail: sparewall.png
 alt: image-alt
 project-date: March 2016
 category: Web Development
+github: https://github.com/jaselchauhan/WDI_Project2
+heroku: https://blooming-depths-77927.herokuapp.com/
 description: sparewall is a website which connects people who own spare walls with those who want to paint them. It was made for my second project at GA WDI and was built in 5 days.
 
 ---
