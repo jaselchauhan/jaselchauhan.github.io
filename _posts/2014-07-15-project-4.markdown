@@ -1,11 +1,11 @@
 ---
-title: project4
-subtitle: AngularJS single page app which harnesses multiple APIs in conjuction with each other to suggest festivals for user.
+title: find-a-fest
+subtitle: AngularJS single page app which harnesses multiple APIs in conjunction with each other to suggest festivals for user.
 layout: default
 modal-id: 4
 date: 2016-04-05
 img: project4.png
-thumbnail: project4.png
+thumbnail: findafest.png
 alt: image-alt
 project-date: April 2016
 client: Me

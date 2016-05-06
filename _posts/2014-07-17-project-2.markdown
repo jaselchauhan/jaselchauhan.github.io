@@ -10,7 +10,7 @@ alt: image-alt
 project-date: February 2016
 client: Me
 category: Web Development
-description: JavaScript based logic puzzle game!
+description: A JavaScript based logic puzzle game! Litesweeper has been coded using both jQuery and vanilla JavaScript, with CSS3 for styling and HTML 5 for DOM structure. To view the code click <a href="https://github.com/jaselchauhan/WDI_Project1"> here </a>
 moreinfo: https://quiet-mesa-77421.herokuapp.com/
 
 ---

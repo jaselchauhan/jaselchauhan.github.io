@@ -1,5 +1,5 @@
 ---
-title: Tic Tac Toe
+title: tic tac toe
 subtitle: Classic game, doesn't really need an introduction!
 layout: default
 modal-id: 1
