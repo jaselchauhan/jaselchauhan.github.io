@@ -2,7 +2,7 @@
 title: tic tac toe
 subtitle: Classic game, doesn't really need an introduction!
 layout: default
-modal-id: 1
+project-id: 1
 date: Feb 2016
 img: tictactoe.png
 thumbnail: tictactoe.png

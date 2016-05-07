@@ -2,7 +2,7 @@
 title: find-a-fest
 subtitle: AngularJS single page app which harnesses multiple APIs in conjunction with each other to suggest festivals for user.
 layout: default
-modal-id: 4
+project-id: 4
 date: 2016-04-05
 img: project4.png
 thumbnail: findafest.png

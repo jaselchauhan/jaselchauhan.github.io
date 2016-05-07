@@ -2,7 +2,7 @@
 title: zenspace
 subtitle: A group coded project which allowed users to find 'zen' spots in London based on their location.
 layout: default
-modal-id: 5
+project-id: 5
 date: 2016-03-20
 img: zenspace.png
 thumbnail: zenspace.png

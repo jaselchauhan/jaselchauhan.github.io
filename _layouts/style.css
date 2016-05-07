@@ -61,10 +61,15 @@ h2.section-heading{
 
 .techStack{
   height: 50px;
+  margin-bottom: 50px;
+}
+
+img.img-responsive.img-centered.techStack{
+  margin-bottom: 0px;
 }
 
 .philosophy{
-  background-image: url("img/portfolio/background7.jpg");
+  background-image: url("img/portfolio/background.jpg");
   background-size: cover;
   margin-top: 200px;
 }
@@ -74,10 +79,46 @@ footer {
 }
 
 #aboutme{
-    background-image: url("img/portfolio/background4.jpg");
+    background-image: url("img/portfolio/background2.jpg");
     background-size: cover;
 }
 
 .text-muted-philosophy{
   color: #{{ site.data.template.color.secondary-dark }}
+}
+
+@media(max-width:768px) {
+
+  div.intro-heading{
+    margin-top: 50px;
+  }
+
+  div.intro-lead-in{
+    margin-top: 100px;
+    font-size: 20px !important;
+  }
+
+  #philosophyTagline{
+    font-size: 16px;
+  }
+
+  .philosophy{
+    background-image: url("img/portfolio/backgroundmobile2.jpg");
+    background-size: cover;
+  }
+
+  .techStack{
+    display: none;
+  }
+
+  img.img-responsive.img-thumbnail.aboutMe{
+    width: 300px;
+    margin-left: 20px;
+  }
+
+
+  /*img.img-responsive.img-centered{
+    width: 50px;
+  }*/
+
 }
