@@ -981,6 +981,11 @@ footer {
     background-size: cover;
   }
 
+  #aboutme{
+    background-image: url("img/portfolio/backgroundmobile2.jpg");
+    background-size: cover;
+  }
+
   .techStack{
     display: none;
   }
@@ -1014,11 +1019,26 @@ footer {
 
 
 @media (min-width: 768px)
-  and (max-width: 960px)
+  and (max-width: 992px)
+
  {
    img.img-responsive.img-thumbnail.aboutMe{
      width: 250px;
-
    }
+
+   .philosophy{
+     background-image: url("img/portfolio/backgroundmobile2.jpg");
+     background-size: cover;
+   }
+
+   #aboutme{
+     background-image: url("img/portfolio/backgroundmobile2.jpg");
+     background-size: cover;
+   }
+
+   img#aboutMePic2.img-responsive.img-thumbnail.aboutMe{
+     display:none;
+   }
+
 
  }
