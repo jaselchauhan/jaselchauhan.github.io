@@ -936,11 +936,10 @@ h2.section-heading{
 
 .techStack{
   height: 50px;
-  margin-bottom: 50px;
 }
 
 img.img-responsive.img-centered.techStack{
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 
 .philosophy{
@@ -987,13 +986,39 @@ footer {
   }
 
   img.img-responsive.img-thumbnail.aboutMe{
-    width: 300px;
-    margin-left: 20px;
+    width: 250px;
+    margin-left: 45px;
+    margin-bottom: 20px;
   }
 
+  img#navbarLogo{
+    height: 50px;
+    margin-top: 5px;
+  }
 
-  /*img.img-responsive.img-centered{
-    width: 50px;
-  }*/
+  a.page-scroll.btn.btn-xl{
+    margin-top: 30px;
+    height: 60px;
+  }
+
+  section {
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  p.large {
+    font-size: 14px;
+  }
 
 }
+
+
+@media (min-width: 768px)
+  and (max-width: 960px)
+ {
+   img.img-responsive.img-thumbnail.aboutMe{
+     width: 250px;
+
+   }
+
+ }
