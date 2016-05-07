@@ -961,6 +961,11 @@ footer {
   color: #333
 }
 
+
+.rowHidden{
+  display: none;
+}
+
 @media(max-width:768px) {
 
   div.intro-heading{
@@ -992,9 +997,10 @@ footer {
 
   img.img-responsive.img-thumbnail.aboutMe{
     width: 250px;
-    margin-left: 45px;
+    margin-left: 35px;
     margin-bottom: 20px;
   }
+
 
   img#navbarLogo{
     height: 50px;
@@ -1014,6 +1020,7 @@ footer {
   p.large {
     font-size: 14px;
   }
+
 
 }
 
