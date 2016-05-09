@@ -2,6 +2,9 @@
 {% include css/agency.css %}
 {{ content }}
 
+div.intro-text{
+  margin-bottom: 1200px;
+}
 
 header .intro-text .intro-lead-in{
   color:black;
@@ -144,6 +147,10 @@ footer {
 
   p.large {
     font-size: 14px;
+  }
+
+  img#aboutMePic2.img-responsive.img-thumbnail.aboutMe{
+    display:none;
   }
 
 
