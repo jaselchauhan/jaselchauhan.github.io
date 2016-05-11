@@ -889,6 +889,18 @@ header .intro-text .intro-heading{
   color: black;
 }
 
+#introductionText1{
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 250px;
+}
+
+#introductionText2{
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 250px;
+}
+
 #navbarLogo{
   height:60px;
 }
@@ -929,7 +941,7 @@ section{
 }
 
 h2.section-heading{
-  margin-top:
+  margin-top: 50px;
 }
 
 .navbar-default .navbar-nav>.active>a{
@@ -951,6 +963,14 @@ img.img-responsive.img-centered.techStack{
   margin-top: 200px;
 }
 
+#PortfolioTitle{
+  margin-bottom: 50px;
+}
+
+#experienceTitle{
+  margin-bottom: 50px;
+}
+
 footer {
   background-color: #333;
 }
@@ -970,6 +990,22 @@ footer {
 }
 
 @media(max-width:768px) {
+
+  #introductionText1{
+    font-size: 16px;
+    font-style: italic;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-top: 150px;
+  }
+
+  #introductionText2{
+    font-size: 16px;
+    font-style: italic;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-bottom: 250px;
+  }
 
   div.intro-heading{
     margin-top: 50px;
