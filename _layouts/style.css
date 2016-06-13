@@ -69,6 +69,10 @@ h2.section-heading{
   margin-top: 50px;
 }
 
+#intro_button{
+  margin-bottom: 300px;
+}
+
 .navbar-default .navbar-nav>.active>a{
   background-color: #222;
   color:  #{{ site.data.template.color.primary }};
