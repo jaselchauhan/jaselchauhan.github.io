@@ -875,8 +875,99 @@ body {
     webkit-tap-highlight-color: #489E74;
 }
 
+.wrap {
+	perspective: 1000px;
+	perspective-origin: 50% 100px;
+}
+
+.cube {
+	position: relative;
+	width: 70px;
+	transform-style: preserve-3d;
+
+}
+
+.cube div {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+  border-radius: 3px;
+}
+
+.back {
+	transform: translateZ(-10px) rotateY(180deg);
+}
+.right {
+	transform: rotateY(-270deg) translateX(10px);
+	transform-origin: top right;
+}
+.left {
+	transform: rotateY(270deg) translateX(-10px);
+	transform-origin: center left;
+}
+.top {
+	transform: rotateX(-90deg) translateY(-10px);
+	transform-origin: top center;
+}
+.bottom {
+	transform: rotateX(90deg) translateY(10px);
+	transform-origin: bottom center;
+  background-image: none;
+}
+.front {
+	transform: translateZ(10px);
+  background-image: url('img/logos/logo.png');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+@keyframes spin {
+	from { transform: rotateY(0); }
+	to { transform: rotateY(360deg); }
+}
+
+.cube {
+	animation: spin 5s infinite linear;
+}
+
+/*navbar styling*/
+
+.navbar-default.navbar-shrink {
+    padding: 30px 0;
+    background-color: rgba(0,0,0,.8);
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: rgba(0,0,0,0);
+  color:  #489E74;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(0,0,0,0);
+  color:  #489E74;
+}
+
+#navbarLogo{
+  height:60px;
+}
+
+a.navbar-brand.page-scroll {
+  padding-top: 0px;
+}
+
+/*footer styling*/
+
+footer {
+  background-color: #333;
+}
 
 
+
+
+/*intro text styling:*/
+
+/*centers my landing page intro text into middle of screen. only works for laptops as is fixed at 400px so need to find better way*/
 div.intro-text{
   margin-bottom: 400px;
 }
@@ -901,13 +992,7 @@ header .intro-text .intro-heading{
   margin-bottom: 250px;
 }
 
-#navbarLogo{
-  height:60px;
-}
 
-a.navbar-brand.page-scroll {
-  padding-top: 0px;
-}
 
 div.col-lg-12.text-center{
   margin-top: 25px;
@@ -948,11 +1033,6 @@ h2.section-heading{
   margin-bottom: 300px;
 }
 
-.navbar-default .navbar-nav>.active>a{
-  background-color: #222;
-  color:  #489E74;
-}
-
 .techStack{
   height: 50px;
 }
@@ -975,9 +1055,7 @@ img.img-responsive.img-centered.techStack{
   margin-bottom: 50px;
 }
 
-footer {
-  background-color: #333;
-}
+
 
 #aboutme{
     background-image: url("img/portfolio/background2.jpg");
@@ -992,6 +1070,8 @@ footer {
 .rowHidden{
   display: none;
 }
+
+
 
 @media(max-width:768px) {
 

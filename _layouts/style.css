@@ -1,7 +1,14 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+{% include css/rotating_logo.css %}
+{% include css/navbar.css %}
+{% include css/footer.css %}
 {{ content }}
 
+
+/*intro text styling:*/
+
+/*centers my landing page intro text into middle of screen. only works for laptops as is fixed at 400px so need to find better way*/
 div.intro-text{
   margin-bottom: 400px;
 }
@@ -26,13 +33,7 @@ header .intro-text .intro-heading{
   margin-bottom: 250px;
 }
 
-#navbarLogo{
-  height:60px;
-}
 
-a.navbar-brand.page-scroll {
-  padding-top: 0px;
-}
 
 div.col-lg-12.text-center{
   margin-top: 25px;
@@ -73,11 +74,6 @@ h2.section-heading{
   margin-bottom: 300px;
 }
 
-.navbar-default .navbar-nav>.active>a{
-  background-color: #222;
-  color:  #{{ site.data.template.color.primary }};
-}
-
 .techStack{
   height: 50px;
 }
@@ -100,9 +96,7 @@ img.img-responsive.img-centered.techStack{
   margin-bottom: 50px;
 }
 
-footer {
-  background-color: #{{ site.data.template.color.secondary-dark }};
-}
+
 
 #aboutme{
     background-image: url("img/portfolio/background2.jpg");
@@ -117,6 +111,8 @@ footer {
 .rowHidden{
   display: none;
 }
+
+
 
 @media(max-width:768px) {
 
