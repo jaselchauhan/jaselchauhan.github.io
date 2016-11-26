@@ -1,2 +1,9 @@
 /*footer styling*/
 
+footer{
+  background-color: black;
+}
+
+span.copyright{
+  color:#eee;
+}

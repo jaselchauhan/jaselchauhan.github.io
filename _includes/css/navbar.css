@@ -17,3 +17,17 @@
 a.navbar-brand.page-scroll {
   padding-top: 0px;
 }
+
+#home_icon{
+  color:white;
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+#home_icon:hover{
+  color:#489E74;
+}
+
+#burger{
+  background-color: black;
+}

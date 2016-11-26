@@ -1,0 +1,44 @@
+@media only screen and (max-device-width: 667px) { 
+
+  img#intro_img{
+    height:150px;
+    width:150px;
+    margin-bottom: 30px;
+  }
+
+  #intro_heading{
+    font-size: 32px;
+  }
+
+  #intro-text-container{
+    padding-top: 100px ;
+  }
+
+  #intro-subtext{
+    font-size: 24px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 75px;
+  }
+
+  #about_me_text.large{
+    font-size:16px;
+  }
+
+  img#portfolioImg.img-responsive.img-centered{
+    opacity: 1;
+  }
+
+  section#contactus{
+    padding-bottom: 50px !important;
+  }
+
+  h2#experienceTitle.section-heading{
+    margin-bottom: 50px;
+  }
+
+  h2#contact_heading.section-heading{
+    margin-bottom: 15px;
+  }
+
+}

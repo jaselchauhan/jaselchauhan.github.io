@@ -1,33 +1,18 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {% include css/animate.css %}
+{% include css/mobile.css %}
 {% include css/navbar.css %}
 {% include css/footer.css %}
-
-
-
 {{ content }}
 
-#home_icon{
-  color:white;
-  margin-top: 15px;
-  font-size: 1.5em;
-}
 
-#home_icon:hover{
-  color:#489E74;
-}
+/*intro*/
 
 .filler{
   margin-right: 5px;
   margin-left: 5px;
 }
-
-#contact_heading{
-  margin-bottom: 60px;
-  color:black;
-}
-
 
 a.page-scroll.btn.btn-xl{
   background-color: black;
@@ -37,43 +22,12 @@ a.page-scroll.btn.btn-xl{
 a.page-scroll.btn.btn-xl:hover {
   background-color: rgba(0,0,0,.8);
   box-shadow: inset 0 0 0 2px #489E74;
-
-}
-
-#submit{
-  background-color: black;
-  margin-top: 20px; 
-}
-
-#submit:hover{
-  background-color: rgba(0,0,0,.8);
-  box-shadow: inset 0 0 0 2px #489E74;
-
-}
-
-
-#portfolioImg{
-  opacity: 0.6;
-}
-
-#portfolioImg:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.1);
-  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
-  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
-  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
-}
-
-div.portfolio-hover{
-  opacity: 0;
 }
 
 .intro-heading{
   color:black;
-
 }
+
 #intro_heading{
   font-family: 'Ruda', sans-serif;
 }
@@ -90,20 +44,11 @@ div.portfolio-hover{
   font-weight: bold;
 }
 
-#contact_subtext{
-  margin-bottom: 50px;
-}
-
 div.intro-text{
   background-size: cover;
   /*border:2px solid black;*/
   padding-top: 150px;
-}
-
-#aboutme{
-  background-image: url(../img/about/background2.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+  padding-bottom: 350px;
 }
 
 div#introSection.container{
@@ -111,22 +56,18 @@ div#introSection.container{
   margin-right: 0px;
 }
 
-section#contactus{
-  padding-bottom: 225px;
-  background-image: url(../img/about/sunset.jpg);
-  background-attachment: fixed;
-  background-size: cover; 
-}
-
-
 header .intro-text .intro-lead-in  {
   font-style: normal;
   color:black;
   margin-bottom: 200px;
 }
 
-.techStack{
-  height: 50px;
+/*about*/
+
+#aboutme{
+  background-image: url(../img/about/background2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #shader{
@@ -149,44 +90,83 @@ header .intro-text .intro-lead-in  {
   font-size: 1.75em;
 }
 
-#PortfolioTitle{
-  margin-bottom:60px;
-}
-
-#experienceTitle{
-  margin-bottom: 150px;
-}
-
-div.intro-text{
-  padding-bottom: 350px;
-}
-
-p#about_me_text.large{
- 
-}
-
-section#experience{
-  padding-top: 0px;
-}
-
 section#aboutme{
   padding-top: 275px;
   padding-bottom: 350px;
   position: relative;
 }
 
-#burger{
-  background-color: black;
+/*portfolio*/
+
+#portfolioImg{
+  opacity: 0.6;
 }
 
-footer{
-  background-color: black;
+#portfolioImg:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
 }
 
-span.copyright{
-  color:#eee;
+div.portfolio-hover{
+  opacity: 0;
+}
+
+#PortfolioTitle{
+  margin-bottom:60px;
+}
+
+
+/*experience*/
+
+#experienceTitle{
+  margin-bottom: 150px;
+}
+
+section#experience{
+  padding-top: 0px;
+}
+
+/*contact*/
+
+#contact_heading{
+  margin-bottom: 60px;
+  color:black;
+}
+
+#submit{
+  background-color: black;
+  margin-top: 20px; 
+}
+
+#submit:hover{
+  background-color: rgba(0,0,0,.8);
+  box-shadow: inset 0 0 0 2px #489E74;
+}
+
+#contact_subtext{
+  margin-bottom: 50px;
+}
+
+section#contactus{
+  padding-bottom: 225px;
+  background-image: url(../img/about/sunset.jpg);
+  background-attachment: fixed;
+  background-size: cover; 
 }
 
 textarea#message.form-control{
   height:160px;
 }
+
+
+
+
+
+
+
+
