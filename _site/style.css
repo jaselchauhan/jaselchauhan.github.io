@@ -905,11 +905,66 @@ a.navbar-brand.page-scroll {
   color:black;
 }
 
+#intro_img{
+  height:200px;
+  width:200px;
+  margin:0 auto;
+  margin-bottom: 50px;
+}
+
+div.intro-text{
+  /*background-image: url(../img/about/background.jpg);*/
+  background-size: cover;
+  /*border:2px solid black;*/
+  padding-top: 150px;
+}
+
+#aboutme{
+  background-image: url(../img/about/background.jpg);
+  background-size: cover;
+}
+
+div#introSection.container{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 
 header .intro-text .intro-lead-in  {
   font-style: normal;
   color:black;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
+}
+
+.techStack{
+  height: 50px;
+}
+
+#about_me_text{
+  text-align:center;
+}
+
+#PortfolioTitle{
+  margin-bottom:60px;
+}
+
+#experienceTitle{
+  margin-bottom: 60px;
+}
+
+
+
+p#about_me_text.large{
+  font-size: 1.5em;
+}
+
+section#experience{
+  padding-top: 0px;
+}
+
+section#aboutme{
+  padding-top: 175px;
+  padding-bottom: 175px;
 }
 
 /*
@@ -979,9 +1034,7 @@ h2.section-heading{
   margin-bottom: 300px;
 }
 
-.techStack{
-  height: 50px;
-}
+
 
 img.img-responsive.img-centered.techStack{
   margin-bottom: 50px;
