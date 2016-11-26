@@ -14,8 +14,6 @@
   font-size: 1.5em;
 }
 
-
-
 #home_icon:hover{
   color:#489E74;
 }
@@ -38,7 +36,7 @@ a.page-scroll.btn.btn-xl{
 
 a.page-scroll.btn.btn-xl:hover {
   background-color: rgba(0,0,0,.8);
-  /*box-sizing: border-box;*/
+  box-shadow: inset 0 0 0 2px #489E74;
 
 }
 
@@ -49,7 +47,7 @@ a.page-scroll.btn.btn-xl:hover {
 
 #submit:hover{
   background-color: rgba(0,0,0,.8);
-  /*box-sizing: border-box;*/
+  box-shadow: inset 0 0 0 2px #489E74;
 
 }
 
@@ -103,14 +101,9 @@ div.intro-text{
 }
 
 #aboutme{
-  /*background-size: cover;*/
   background-image: url(../img/about/background2.jpg);
   background-attachment: fixed;
   background-size: cover;
-  /*background-position: center center*/
-  
-
-
 }
 
 div#introSection.container{
