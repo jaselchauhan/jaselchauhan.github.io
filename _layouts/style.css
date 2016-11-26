@@ -27,6 +27,7 @@
 
 #contact_heading{
   margin-bottom: 60px;
+  color:black;
 }
 
 
@@ -36,7 +37,9 @@ a.page-scroll.btn.btn-xl{
 }
 
 a.page-scroll.btn.btn-xl:hover {
-  background-color: #489E74;
+  background-color: rgba(0,0,0,.8);
+  /*box-sizing: border-box;*/
+
 }
 
 #submit{
@@ -45,7 +48,28 @@ a.page-scroll.btn.btn-xl:hover {
 }
 
 #submit:hover{
-  background-color: #489E74;
+  background-color: rgba(0,0,0,.8);
+  /*box-sizing: border-box;*/
+
+}
+
+
+#portfolioImg{
+  opacity: 0.6;
+}
+
+#portfolioImg:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+}
+
+div.portfolio-hover{
+  opacity: 0;
 }
 
 .intro-heading{
@@ -66,6 +90,10 @@ a.page-scroll.btn.btn-xl:hover {
 #intro-subtext{
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
+}
+
+#contact_subtext{
+  margin-bottom: 50px;
 }
 
 div.intro-text{
@@ -93,6 +121,9 @@ div#introSection.container{
 
 section#contactus{
   padding-bottom: 225px;
+  background-image: url(../img/about/sunset.jpg);
+  background-attachment: fixed;
+  background-size: cover; 
 }
 
 
@@ -162,4 +193,8 @@ footer{
 
 span.copyright{
   color:#eee;
+}
+
+textarea#message.form-control{
+  height:160px;
 }

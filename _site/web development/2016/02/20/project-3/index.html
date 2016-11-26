@@ -4,16 +4,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>sparewall</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="full stack web developer | teacher | tech enthusiast">
+    <meta name="keywords" content="Freelance, web developer, javascript, node, express, financial analyst"/>
+    <meta name="robots" content="index, follow" />
+    <title>Jasel Chauhan | Freelance Web Developer. London Based.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jasel Chauhan | Freelance Web Developer. London Based. Available for hire.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jasel Chauhan | Freelance Web Developer. London Based.">
+    <meta property="og:description" content="Jasel Chauhan | Freelance Web Developer. London Based. Available for hire.">
+    <meta property="og:url" content="http://www.jaselchauhan.com">
+    <meta property="og:site_name" content="Jasel Chauhan | Freelance Web Developer. London Based.">
     <link rel="canonical" href="https://jaselchauhan.github.io/web%20development/2016/02/20/project-3/">
-
-
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/style.css">
-
-    <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -124,12 +127,8 @@
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#Project4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/findafest.png" class="img-responsive img-centered" alt="">
+                       
+                        <img id="portfolioImg" src="img/portfolio/findafest.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>find-a-fest</h4>
@@ -139,12 +138,8 @@
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#Project5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/zenspace.png" class="img-responsive img-centered" alt="">
+                       
+                        <img id="portfolioImg" src="img/portfolio/zenspace.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>zenspace</h4>
@@ -154,12 +149,8 @@
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#Project3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/sparewall.png" class="img-responsive img-centered" alt="">
+                       
+                        <img id="portfolioImg" src="img/portfolio/sparewall.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>sparewall</h4>
@@ -169,12 +160,8 @@
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#Project1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/leaptheremin.png" class="img-responsive img-centered" alt="">
+                       
+                        <img id="portfolioImg" src="img/portfolio/leaptheremin.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>leap theremin</h4>
@@ -184,12 +171,8 @@
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#Project2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/litesweeper.png" class="img-responsive img-centered" alt="">
+                       
+                        <img id="portfolioImg" src="img/portfolio/litesweeper.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>litesweeper</h4>
@@ -229,7 +212,7 @@
                         <img class="img-circle img-responsive" src="img/portfolio/future.png" alt="">
                     </span>
                     <h4 class="service-heading">Freelance Developer & Teacher</h4>
-                    <p class="">Developing websites and applications. Teaching code on an individual basis. Additionally have learnt new technologies including Leap Motion, Raspberry Pi and Arduino development</p>
+                    <p class="">Developing fully responsive websites and applications. Teaching code on an individual basis. Additionally have learnt new technologies including Leap Motion, Raspberry Pi and Arduino development</p>
                 </div>
             </div>
         </div>
@@ -240,6 +223,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 id="contact_heading" class="section-heading">Contact</h2>
+                    <h5 id="contact_subtext">I'm available for hire - use the form below or social links to get in touch! </h3>
                 </div>
             </div>
             <div class="row">
@@ -485,25 +469,14 @@
     </div>
 
 
-     <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+        <script src="/js/jquery-1.11.0.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="/js/jquery.easing.min.js"></script>
     <script src="/js/classie.js"></script>
     <script src="/js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
     <script src="/js/jqBootstrapValidation.js"></script>
     <script src="/js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
     <script src="/js/agency.js"></script>
-
-    <!-- custom javascript added by developer  -->
     <script src="./js/app.js"></script>
 
 
