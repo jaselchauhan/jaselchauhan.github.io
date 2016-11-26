@@ -10,3 +10,9 @@
 //    animateBackground();
 //
 // console.log("hi from app.js");
+
+$(function() {
+    var $introTextMain = $('#intro_heading');
+
+    // $($introTextMain).delay(3000).addClass('animated bounce infinite');
+});
