@@ -14,8 +14,15 @@
   font-size: 1.5em;
 }
 
+
+
 #home_icon:hover{
   color:#489E74;
+}
+
+.filler{
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 #contact_heading{
