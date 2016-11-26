@@ -4216,7 +4216,7 @@ body {
   animation-name: slideOutUp;
 }
 
-@media only screen and (max-device-width: 667px) { 
+@media only screen and (max-device-width: 736px) { 
 
   img#intro_img{
     height:150px;
