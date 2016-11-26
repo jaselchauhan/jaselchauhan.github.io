@@ -1,17 +1,17 @@
 ---
-title: tic tac toe
-subtitle: Classic game, doesn't really need an introduction!
+title: leap theremin
+subtitle: a musical instrument developed with a leap motion controller
 layout: default
 project-id: 1
 date: Feb 2016
-img: tictactoe.png
-thumbnail: tictactoe.png
+img: leaptheremin.png
+thumbnail: leaptheremin.png
 alt: image-alt
-project-date: Feb 2016
+project-date: Oct 2016
 client: me
 category: Web Development
-description: Developed at beginning of GA WDI, using JavaScript, CSS and HTML
-moreinfo: https://github.com/jaselchauhan/tictactoe
+description: Developed using a leap motion controller, html5 canvas for the visualiser and html5 audio for the sound processing and analysing.
+moreinfo: https://github.com/jaselchauhan/leap_theremin
 
 
 ---

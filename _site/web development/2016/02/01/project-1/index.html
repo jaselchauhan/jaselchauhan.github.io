@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>tic tac toe</title>
+    <title>leap theremin</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="full stack web developer | teacher | tech enthusiast">
     <link rel="canonical" href="https://jaselchauhan.github.io/web%20development/2016/02/01/project-1/">
@@ -31,14 +31,14 @@
         <div class="container">
 
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button id="burger" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
 
-            <a class="navbar-brand page-scroll" href="#page-top">
+            <a class="navbar-brand page-scroll" href="#page-top"> <i id="home_icon" class="fa fa-home" aria-hidden="true"></i>
                 
             </a>
 
@@ -74,7 +74,7 @@
                 <img src="../img/about/profile_cutout.png" alt="" id="intro_img">
                 <div id="intro_heading" class="intro-heading">JASEL CHAUHAN</div>
                 <div id="intro-subtext" class="intro-lead-in">Full Stack Web Developer   ||   Financial Analyst  ||   Friendly Dude</div>
-                <a href="#aboutme" class="page-scroll btn btn-xl">About Me</a>
+                <a href="#aboutme" class="page-scroll btn btn-xl">About</a>
             </div>
         </div>
     </header>
@@ -91,7 +91,7 @@
                 <!-- <img src="img/about/profile2.jpg" class="img-responsive img-thumbnail aboutMe" alt=""> -->
             </div>
             <div class="col-md-10 col-sm-12">
-                <p class="large" id="about_me_text">I'm a Full Stack Web Developer and Financial Analyst who is on the lookout for fresh new opportunities. Excited by the possibilities of code I am seeking an environment where I can be constantly challenged and stimulated, continuing my growth as a developer.
+                <p class="large" id="about_me_text">I'm a Full Stack Web Developer and Financial Analyst who is on the lookout for fresh new opportunities. Excited by the possibilities of code I am seeking an environment where I can be constantly challenged and stimulated, continuing my growth as a developer. Currently London based.
                 </p>
 
         
@@ -166,11 +166,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/tictactoe.png" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/leaptheremin.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>tic tac toe</h4>
-                        <p class="text-muted">Classic game, doesn't really need an introduction!</p>
+                        <h4>leap theremin</h4>
+                        <p class="text-muted">a musical instrument developed with a leap motion controller</p>
                     </div>
                 </div>
             
@@ -227,174 +227,45 @@
         </div>
     </section>
 
-<!--         <section id="technology">
+    <section id="contactus">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Technology Stack</h2>
-                    <h3 class="section-subheading text-muted">I feel most comfortable developing on a MEAN stack using JavaScript, however I can code in Ruby and have dabbled in Python too and am always up for learning new languages! I'm also starting to experiment with Internet of Things development - this is something I'm really interested in!</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <h4 class="service-heading">comfortable using</h4>
-                    <p class="text-muted">
-                      <li class="text-muted">MEAN Stack (MongoDB, Express, AngularJS, Node.js)</li>
-                      <li class="text-muted">Ruby (Sinatra and Rails)</li>
-                      <li class="text-muted">Responsive Web Design</li>
-                      <li class="text-muted">noSQL and SQL Databases</li>
-                      <li class="text-muted">oAuth login</li>
-                      <li class="text-muted">APIs and consuming API data</li>
-                      <li class="text-muted">BCrypt Password Hashing</li>
-                      <li class="text-muted">Bower Components</li>
-                      <li class="text-muted">Git Version Control</li>
-                      <li class="text-muted">JSON Web Tokens</li>
-                      <li class="text-muted">HTML 5</li>
-                      <li class="text-muted">CSS 3 </li>
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="service-heading">i've dabbled in</h4>
-                    <p class="text-muted">
-                      <li class="text-muted">TDD (Ruby and JavaScript)</li>
-                      <li class="text-muted">Android App Development</li>
-                      <li class="text-muted">Wordpress</li>
-                      <li class="text-muted">Heroku Deployment</li>
-                      <li class="text-muted">E-Commerce Shopping Carts</li>
-                      <li class="text-muted">Python</li>
-                      <li class="text-muted">Gulp</li>
-                      <li class="text-muted">IFTTT IoT Development</li>
-                      <li class="text-muted">Flic IoT button</li>
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="service-heading">preferred set-up</h4>
-                    <p>
-                      <li class="text-muted">Macbook Pro/iMac</li>
-                      <li class="text-muted">Atom Text Editor</li>
-                      <li class="text-muted">MEAN Stack for Web Development</li>
-                      <li class="text-muted">Raspberry Pi</li>
-                      <li class="text-muted">Arduino Uno</li>
-                      <li class="text-muted">Git Version Control</li>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-        <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2 col-sm-2">
-                        <img src="img/portfolio/MEAN.png" class="img-responsive img-centered techStack" alt="MEAN stack">
-                </div>
-                <div class="col-md-2 col-sm-2">
-                        <img src="img/portfolio/ruby.png" class="img-responsive img-centered techStack" alt="Ruby on Rails">
-                </div>
-                <div class="col-md-2 col-sm-2">
-                        <img src="img/portfolio/bower.png" class="img-responsive img-centered techStack" alt="Bower Components">
-                </div>
-                <div class="col-md-2 col-sm-2">
-                        <img src="img/portfolio/pi.png" class="img-responsive img-centered techStack" alt="Ruby">
-                </div>
-                <div class="col-md-2 col-sm-2">
-                        <img src="img/portfolio/python.png" class="img-responsive img-centered techStack" alt="Python">
-                </div>
-                <div class="col-md-2 col-sm-2">
-                        <img src="img/portfolio/git.png" class="img-responsive img-centered techStack" alt="Git Version Control">
-                </div>
-            </div>
-        </div>
-    </aside>
- -->
-    
-<!--     <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 id="contact_heading" class="section-heading">Contact</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="control-group form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
+
+                    <form method="POST" action="http://formspree.io/jasel.chauhan@gmail.com">
+                     <div class="row">
+                         <div class="col-md-6">
+                             <div class="control-group form-group">
+                                 <input name="name" type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                 <p class="help-block text-danger"></p>
+                             </div>
+                             <div class="control-group form-group">
+                                 <input name="email" type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                 <p class="help-block text-danger"></p>
+                             </div>
+                             <div class="control-group form-group">
+                                 <input name="phone" type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                 <p class="help-block text-danger"></p>
+                             </div>
+                         </div>
+                         <div class="col-md-6">
+                             <div class="control-group form-group">
+                                 <textarea name="message" class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                 <p class="help-block text-danger"></p>
+                             </div>
+                         </div>
+                         <div class="clearfix"></div>
+                         <div class="col-lg-12 text-center">
+                             <div id="success"></div>
+                             <button id="submit" type="submit" class="btn btn-xl">Send Message</button>
+                         </div>
+                     </div>
                     </form>
-                </div>
-            </div>
-        </div>
-    </section>
- -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-
-                  <form name="sentMessage" id="contactForm" action="https://getsimpleform.com/messages?form_api_token=28aa97d6e4fc5ba4cbe58d1de9ae4753" method="post">
-                    
-                   <div class="row">
-                       <div class="col-md-6">
-                           <div class="control-group form-group">
-                               <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                               <p class="help-block text-danger"></p>
-                           </div>
-                           <div class="control-group form-group">
-                               <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                               <p class="help-block text-danger"></p>
-                           </div>
-                           <div class="control-group form-group">
-                               <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                               <p class="help-block text-danger"></p>
-                           </div>
-                       </div>
-                       <div class="col-md-6">
-                           <div class="control-group form-group">
-                               <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                               <p class="help-block text-danger"></p>
-                           </div>
-                       </div>
-                       <div class="clearfix"></div>
-                       <div class="col-lg-12 text-center">
-                           <div id="success"></div>
-                           <button type="submit" class="btn btn-xl">Send Message</button>
-                       </div>
-                   </div>
-
-                   
-                  </form>
 
             </div>
         </div>
@@ -549,17 +420,17 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>tic tac toe</h2>
+                            <h2>leap theremin</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/tictactoe.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Developed at beginning of GA WDI, using JavaScript, CSS and HTML</p>
+                            <img src="img/portfolio/leaptheremin.png" class="img-responsive img-centered" alt="image-alt">
+                            <p>Developed using a leap motion controller, html5 canvas for the visualiser and html5 audio for the sound processing and analysing.</p>
                             <ul class="list-inline item-details">
                                 <li>
-                                    <strong><a href="https://github.com/jaselchauhan/tictactoe">Curious? Click here to see more of this project</a>
+                                    <strong><a href="https://github.com/jaselchauhan/leap_theremin">Curious? Click here to see more of this project</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong>Feb 2016
+                                    <strong>Oct 2016
                                     </strong>
                                 </li>
                             </ul>

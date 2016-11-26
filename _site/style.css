@@ -4244,6 +4244,20 @@ a.navbar-brand.page-scroll {
 
 
 
+#home_icon{
+  color:white;
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+#home_icon:hover{
+  color:#489E74;
+}
+
+#contact_heading{
+  margin-bottom: 60px;
+}
+
 
 a.page-scroll.btn.btn-xl{
   background-color: black;
@@ -4251,7 +4265,16 @@ a.page-scroll.btn.btn-xl{
 }
 
 a.page-scroll.btn.btn-xl:hover {
-  background-color: #47CF73;
+  background-color: #489E74;
+}
+
+#submit{
+  background-color: black;
+  margin-top: 20px; 
+}
+
+#submit:hover{
+  background-color: #489E74;
 }
 
 .intro-heading{
@@ -4284,11 +4307,16 @@ div.intro-text{
 #aboutme{
   background-image: url(../img/about/background.jpg);
   background-size: cover;
+
 }
 
 div#introSection.container{
   margin-left: 0px;
   margin-right: 0px;
+}
+
+section#contactus{
+  padding-bottom: 225px;
 }
 
 
@@ -4319,7 +4347,7 @@ header .intro-text .intro-lead-in  {
 
 
 p#about_me_text.large{
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 section#experience{
@@ -4327,8 +4355,20 @@ section#experience{
 }
 
 section#aboutme{
-  padding-top: 175px;
-  padding-bottom: 175px;
+  padding-top: 225px;
+  padding-bottom: 225px;
+}
+
+#burger{
+  background-color: black;
+}
+
+footer{
+  background-color: black;
+}
+
+span.copyright{
+  color:#eee;
 }
 
 /*
