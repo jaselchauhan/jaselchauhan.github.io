@@ -12,7 +12,28 @@
 // console.log("hi from app.js");
 
 $(function() {
-    var $introTextMain = $('#intro_heading');
+    console.log("hi from app.js");
+
+    var $introTextMain  = $('#intro_heading');
+    var $aboutText      = $('#about_me_text');
+    var $aboutNav       = $('#navbar_about');
+    var $aboutBtn       = $('#about_btn');
+    var $shader         = $('#shader');
+
+    
+    $aboutBtn.click(function(){
+      $aboutText.fadeIn(5000);
+      // $shader.fadeIn
+    })
+
+    $aboutNav.click(function(){
+      $aboutText.fadeIn(5000);
+    })
+
 
     // $($introTextMain).delay(3000).addClass('animated bounce infinite');
+
+
+    //when the about navbar text is highlighted fade in the about text. when not highlighted fade out.
+
 });
