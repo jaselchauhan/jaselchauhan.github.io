@@ -23,11 +23,12 @@ $(function() {
     
     $aboutBtn.click(function(){
       $aboutText.fadeIn(5000);
-      // $shader.fadeIn
+      $shader.fadeIn(4000);
     })
 
     $aboutNav.click(function(){
       $aboutText.fadeIn(5000);
+      $shader.fadeIn(4000);
     })
 
 

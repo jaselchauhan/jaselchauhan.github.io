@@ -76,7 +76,7 @@ div.intro-text{
 }
 
 #aboutme{
-  background-image: url(../img/about/background.jpg);
+  background-image: url(../img/about/background2.jpg);
   background-size: cover;
 
 }
@@ -107,15 +107,18 @@ header .intro-text .intro-lead-in  {
   width:100%;
   position: absolute;
   bottom:0px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
+  display: none;
 }
 
 #about_me_text{
   text-align:center;
   font-family: Montserrat, sans-serif;
   font-family: 'Ruda', sans-serif;
+  color:#eee;
   display:none;
   padding-top:110px; 
+  font-size: 1.75em;
 }
 
 #PortfolioTitle{
@@ -131,7 +134,7 @@ div.intro-text{
 }
 
 p#about_me_text.large{
-  font-size: 1.75em;
+ 
 }
 
 section#experience{
@@ -139,8 +142,8 @@ section#experience{
 }
 
 section#aboutme{
-  padding-top: 225px;
-  padding-bottom: 225px;
+  padding-top: 275px;
+  padding-bottom: 350px;
   position: relative;
 }
 
