@@ -1,8 +1,7 @@
 /*navbar styling*/
 
 .navbar-default.navbar-shrink {
-    padding: 30px 0;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0);
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -13,10 +12,6 @@
 .navbar-default .navbar-nav>.active>a:hover {
   background-color: rgba(0,0,0,0);
   color:  #{{ site.data.template.color.primary }};
-}
-
-#navbarLogo{
-  height:60px;
 }
 
 a.navbar-brand.page-scroll {

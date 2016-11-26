@@ -1,14 +1,23 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
-{% include css/rotating_logo.css %}
 {% include css/navbar.css %}
 {% include css/footer.css %}
 {{ content }}
 
 
-/*intro text styling:*/
+.intro-heading{
+  color:black;
+}
 
-/*centers my landing page intro text into middle of screen. only works for laptops as is fixed at 400px so need to find better way*/
+
+header .intro-text .intro-lead-in  {
+  font-style: normal;
+  color:black;
+  margin-bottom: 250px;
+}
+
+/*
+
 div.intro-text{
   margin-bottom: 400px;
 }
@@ -217,3 +226,4 @@ img.img-responsive.img-centered.techStack{
 
 
  }
+*/

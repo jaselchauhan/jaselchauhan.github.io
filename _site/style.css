@@ -875,84 +875,10 @@ body {
     webkit-tap-highlight-color: #489E74;
 }
 
-.wrap {
-	perspective: 1000px;
-	perspective-origin: 50% 100px;
-}
-
-.cube {
-	position: relative;
-	width: 70px;
-	transform-style: preserve-3d;
-
-}
-
-.cube div {
-	position: absolute;
-	width: 70px;
-	height: 70px;
-  border-radius: 3px;
-}
-
-.back {
-	transform: translateZ(-10px) rotateY(180deg);
-}
-.right {
-	transform: rotateY(-270deg) translateX(5px);
-	transform-origin: top right;
-}
-.left {
-	transform: rotateY(270deg) translateX(-5px);
-	transform-origin: center left;
-}
-.top {
-	transform: rotateX(-90deg) translateY(-5px);
-	transform-origin: top center;
-}
-.bottom {
-	transform: rotateX(90deg) translateY(5px);
-	transform-origin: bottom center;
-  background-image: none;
-}
-.front {
-	transform: translateZ(5px);
-  background-image: url('img/logos/logo.png');
-  background-size:     cover;
-  background-repeat:   no-repeat;
-  background-position: center center;
-}
-
-@keyframes spin {
-	from { transform: rotateY(0); }
-	to { transform: rotateY(360deg); }
-}
-
-.cube {
-	animation: spin 5s infinite linear;
-}
-
-@media(max-width:768px) {
-
-  .wrap {
-    margin-top: 5px;
-  }
-
-  .cube {
-    width: 50px;
-  }
-
-  .cube div {
-    width: 50px;
-    height: 50px;
-  }
-
-}
-
 /*navbar styling*/
 
 .navbar-default.navbar-shrink {
-    padding: 30px 0;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0);
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -965,26 +891,29 @@ body {
   color:  #489E74;
 }
 
-#navbarLogo{
-  height:60px;
-}
-
 a.navbar-brand.page-scroll {
   padding-top: 0px;
 }
 
 /*footer styling*/
 
-footer {
-  background-color: #333;
+
+
+
+
+.intro-heading{
+  color:black;
 }
 
 
+header .intro-text .intro-lead-in  {
+  font-style: normal;
+  color:black;
+  margin-bottom: 250px;
+}
 
+/*
 
-/*intro text styling:*/
-
-/*centers my landing page intro text into middle of screen. only works for laptops as is fixed at 400px so need to find better way*/
 div.intro-text{
   margin-bottom: 400px;
 }
@@ -1193,3 +1122,4 @@ img.img-responsive.img-centered.techStack{
 
 
  }
+*/

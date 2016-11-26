@@ -1,5 +1,2 @@
 /*footer styling*/
 
-footer {
-  background-color: #{{ site.data.template.color.secondary-dark }};
-}
