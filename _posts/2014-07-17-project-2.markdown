@@ -3,7 +3,7 @@ title: litesweeper
 subtitle: JavaScript based logic puzzle game!
 layout: default
 project-id: 2
-date: 2016-02-01
+date: Jan 2016
 img: litesweeper.png
 thumbnail: litesweeper.png
 alt: image-alt

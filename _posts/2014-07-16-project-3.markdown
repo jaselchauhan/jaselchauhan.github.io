@@ -3,7 +3,7 @@ title: sparewall
 subtitle: connects people with spare walls with artists who want to paint them!
 layout: default
 project-id: 3
-date: 2016-02-20
+date: March 2016
 img: sparewall.png
 thumbnail: sparewall.png
 alt: image-alt

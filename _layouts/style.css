@@ -34,7 +34,7 @@ a.page-scroll.btn.btn-xl:hover {
 
 #intro_img{
   height:200px;
-  width:200px;
+  /*idth:200px;*/
   margin:0 auto;
   margin-bottom: 50px;
 }
